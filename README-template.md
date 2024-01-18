@@ -1,4 +1,4 @@
-https://github.com/Abhishek-G06/results-summary-component/blob/e4b489f55221e31dcd6dd209dd86ebf2caead6ef/design/desktop-design%20by%20me.jpg
+(https://github.com/Abhishek-G06/results-summary-component/blob/e4b489f55221e31dcd6dd209dd86ebf2caead6ef/design/desktop-design%20by%20me.jpg)
 
 <!-- # Frontend Mentor - Results summary component solution
 
