@@ -4,11 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+  <meta name="description" content="HTML, CSS, Desktop Design, Mobile View">
   <meta name="author" content="Abhishek gupta">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
   <link rel="stylesheet" type="text/CSS" href="./style.css" />
+
   <title>Frontend Mentor | Results summary component</title>
 
 </head>
@@ -17,37 +21,63 @@
   <main>
     <div class="container">
       <div class="card">
-        <div class="inside-card" id="inside-card">
-          Your Result
-          76
-          of 100
+        <div class="inner-card">
+          <p class="result">Your Result</p>
 
-          Great
-          You scored higher than 65% of the people who have taken these tests.
+          <div class="circle">
+              <div class="marks">76</div>
+              <div class="total-marks">of 100</div>
+          </div>
+
+
+          <div class="great">Great</div>
+          <div class="description">
+            You scored higher than 65% of the people who have taken these tests.
+          </div>
 
         </div>
 
-        <div class="inside-card2" id="inside-card2">
-          
+        <div class="inner-card2" id="inside-card2">
+
           <h3>Summary</h3>
           <ul>
-            <li class=""> <img src="./assets/images/icon-reaction.svg">
-              Reaction
-              80 / 100
-            <li> <img src="./assets/images/icon-memory.svg">
-              Memory
-              92 / 100
-            <li> <img src="./assets/images/icon-verbal.svg">
-              Verbal
-              61 / 100
-            <li> <img src="./assets/images/icon-visual.svg">
-              Visual
-              72 / 100
+            <li>
+              <div class="left-part">
+                <img src="./assets/images/icon-reaction.svg" alt="" class="reaction">
+                Reaction
+              </div>
+              <div class="right-part">
+                <span class="color1">80</span> <span class="color2">&nbsp;/ 100</span>
+              </div>
+
+            <li>
+              <div class="left-part">
+                <img src="./assets/images/icon-memory.svg" alt="" class="memory">
+                Memory
+              </div>
+              <div class="right-part">
+                <span class="color1">92</span> <span class="color2">&nbsp;/ 100</span>
+              </div>
+
+            <li>
+              <div class="left-part">
+                <img src="./assets/images/icon-verbal.svg" alt="" class="verbal">
+                Verbal
+              </div>
+              <div class="right-part">
+                <span class="color1">61</span> <span class="color2">&nbsp;/ 100</span>
+              </div>
+
+            <li>
+              <div class="left-part">
+                <img src="./assets/images/icon-visual.svg" alt="" class="visual">
+                Visual
+              </div>
+              <div class="right-part">
+                <span class="color1">72</span> <span class="color2">&nbsp;/ 100</span>
+              </div>
           </ul>
-          
-          
-          
-          
+
           <button class="submit" id="submit-button">Continue</button>
         </div>
       </div>
@@ -56,12 +86,12 @@
     <!-- Footer -->
     <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Abhishek Gupta</a>.
+      Coded by <a href="https://www.linkedin.com/in/abhishek-gupta-667229189/" target="_blank">Abhishek Gupta</a>.
     </footer>
 
     <!-- Script -->
     <script src="./script.js"></script>
-  
+
   </main>
 
 </body>
