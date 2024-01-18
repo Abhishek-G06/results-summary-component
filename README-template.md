@@ -1,5 +1,7 @@
 ![Result_Summary_template](https://github.com/Abhishek-G06/results-summary-component/blob/e4b489f55221e31dcd6dd209dd86ebf2caead6ef/design/desktop-design%20by%20me.jpg)
 
+### Live URL:
+Visit the link given in the description.
 <!-- # Frontend Mentor - Results summary component solution
 
 This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
