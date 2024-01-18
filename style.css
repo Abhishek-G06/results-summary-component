@@ -233,46 +233,10 @@ ul li:nth-child(4){
     border: var(--Dark-gray-blue);
 }
 
-/* @media screen and (max-width: 375px) {
-    /* .container {
-        width: auto;
-    } */
-    /* .card {
-        width: auto;
-    }
-
-    .inner-card {
-        width: auto;
-    }
-
-    .circle {
-        width: 80px;
-        height: 80px;
-    }
-
-    .marks {
-        font-size: 30px;
-    }
-
-    .total-marks {
-        font-size: 12px;
-    }
-
-    .great {
-        font-size: 18px;
-    }
-
-    .description {
-        font-size: 12px;
-    }
-
-    .inner-card2 {
-        width: auto;
-    } */ 
-
 .attribution { 
     margin-top: 40px;
     font-size: 11px; text-align: center; 
+    max-width: 60%;
 }
 
 .attribution a { 
