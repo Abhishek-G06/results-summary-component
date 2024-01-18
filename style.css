@@ -234,7 +234,7 @@ ul li:nth-child(4){
 }
 
 @media screen and (max-width: 375px) {
-    .card {
+    /* .card {
         width: auto;
     }
 
@@ -265,7 +265,7 @@ ul li:nth-child(4){
 
     .inner-card2 {
         width: auto;
-    }
+    } */
 }
 
 .attribution { 
