@@ -233,10 +233,10 @@ ul li:nth-child(4){
     border: var(--Dark-gray-blue);
 }
 
-@media screen and (max-width: 375px) {
-    .container {
+/* @media screen and (max-width: 375px) {
+    /* .container {
         width: auto;
-    }
+    } */
     /* .card {
         width: auto;
     }
@@ -268,8 +268,7 @@ ul li:nth-child(4){
 
     .inner-card2 {
         width: auto;
-    } */
-}
+    } */ 
 
 .attribution { 
     margin-top: 40px;
