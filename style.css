@@ -54,7 +54,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     background-color: var(--White);
 }
 
@@ -231,6 +230,41 @@ ul li:nth-child(4){
     background-color: var(--Dark-gray-blue);
     border-radius: 50px;
     border: var(--Dark-gray-blue);
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+
+    .inner-card {
+        width: 100%;
+    }
+
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .marks {
+        font-size: 24px;
+    }
+
+    .total-marks {
+        font-size: 12px;
+    }
+
+    .great {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .inner-card2 {
+        width: 100%;
+    }
 }
 
 .attribution { 
